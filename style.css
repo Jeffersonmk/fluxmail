@@ -1,0 +1,46 @@
+.menu-logo img {
+    width: 120px;
+    height: 120px;
+}
+
+@font-face {
+    font-family: "Sugo Pro Display Bold";
+    src: url("./Fonts/sugo_pro_display/Sugo-Pro-Display-Bold-trial.ttf");
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 120px 20px 120px;
+}
+
+.menu ul {
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.menu-logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu-logo h1 {
+    font-family: "Sugo Pro Display Bold";
+    color: #E02112;
+    font-size: 45px;
+    cursor: pointer;
+}
+
+.menu-logo span {
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 20px;
+}
