@@ -31,6 +31,7 @@ header {
     color: #E02112;
     font-size: 45px;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 .menu-logo span {
@@ -43,4 +44,60 @@ ul {
 
 li {
     font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
 }
+
+.chamada-header {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.chamada-header h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.chamada-header span {
+    color: #E02112;
+}
+
+.chamada-header h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: medium;
+    color: #000000;
+    margin-top: 15px;
+}
+
+
+.chamada-header p {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #000000;
+    margin-top: 5px;
+}
+
+#button-header {
+    width: 385px;
+    height: 63px;
+    border: none;
+    background-color: #E02112;
+    border-radius: 22px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: #FFFFFF;
+    margin: 10px 0 10px 0;
+    box-shadow: 3px 3px 3px grey;
+}
+
+.chamada-header img {
+    width: 870px;
+    height: 580px;
+    border-radius: 10px;
+    border: solid #000000;
+}
+
