@@ -80,7 +80,7 @@ li {
     margin-top: 5px;
 }
 
-#button-header {
+.button-cta {
     width: 385px;
     height: 63px;
     border: none;
@@ -94,7 +94,7 @@ li {
     box-shadow: 3px 3px 3px grey;
 }
 
-#button-header:hover {
+.button-cta:hover {
     background-color: #ff1100;
 }
 
@@ -314,7 +314,7 @@ ul {
 .duvidas {
     background-color: #D9D9D9;
     padding-bottom: 100px;
-    border-bottom: 3px solid black;
+    border-bottom: 4px solid black
 }
 
 .duvidas h1 {
@@ -348,3 +348,30 @@ ul {
     font-size: 20px;
 }
 
+.cta-footer {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: 4px solid black
+}
+
+.cta-footer h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+}
+
+.cta-footer h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.cta-footer button {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background-color: #E9E9E9;
+}
