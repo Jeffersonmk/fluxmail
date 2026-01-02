@@ -267,6 +267,7 @@ ul {
     border-left: 0;
     border-right: 0;
     margin-top: -120px;
+    outline: 4px solid black
 }
 
 .essencial h1 {
@@ -309,4 +310,17 @@ ul {
     width: 572px;
     height: auto;
 }
+
+.duvidas {
+    background-color: #D9D9D9;
+}
+
+.duvidas h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
 
