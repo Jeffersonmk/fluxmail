@@ -354,7 +354,7 @@ ul {
     align-items: center;
     flex-direction: column;
     gap: 10px;
-    border-bottom: 4px solid black
+    border-bottom: 4px solid black;
 }
 
 .cta-footer h1 {
@@ -374,4 +374,34 @@ ul {
 
 .footer {
     background-color: #E9E9E9;
+}
+
+.section-footer {
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.section-tab h5 {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-link {
+    font-family: "Inter", sans-serif;
+    color: black;
+    font-weight: 500;          
+    font-size: 20px;
+    margin-top: -15px;
+}
+
+#footer-text {
+    font-family: "Inter", sans-serif;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: -50px;
 }
