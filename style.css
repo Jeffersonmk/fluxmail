@@ -377,6 +377,7 @@ ul {
 }
 
 .section-footer {
+    margin-top: -5px;
     justify-content: space-between;
     margin-left: 120px;
     margin-right: 120px;
@@ -404,4 +405,12 @@ ul {
     font-weight: 400;
     text-align: center;
     margin-top: -50px;
+}
+
+.btn-group {
+    margin-top: -25px;
+}
+
+.planos-card {
+    margin-top: -5px;
 }
