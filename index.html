@@ -12,18 +12,32 @@
 </head>
 <body>
     <header>
-        <div class="menu-logo">
-            <img src="./Images/logo/fluxmail.png" alt="logo-da-empresa">
-            <h1>FLUX<span>MAIL</span></h1>
-        </div>
         <div class="menu">
-            <nav>
-                <ul>
-                    <li>SOBRE</li>
-                    <li>FUNCIONALIDADES</li>
-                    <li>PLANOS</li>
-                    <li>LOGIN</li>
-                </ul>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="./Images/logo/fluxmail.png" alt="logo-da-empresa">
+                        <h1>FLUX<span>MAIL</span></h1>
+                    </a>
+                    <!-- Botão “hamburger” -->
+                    <button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#menuNav"
+                            aria-controls="menuNav"
+                            aria-expanded="false"
+                            aria-label="Alternar navegação">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Conteúdo que aparece/oculta -->
+                    <div class="collapse navbar-collapse nav-menu" id="menuNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="#">SOBRE</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">FUNCIONALIDADES</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">PLANOS</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">LOGIN</a></li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </div>
     </header>

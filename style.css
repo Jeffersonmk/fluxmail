@@ -1,4 +1,4 @@
-.menu-logo img {
+.navbar-brand img {
     width: 120px;
     height: 120px;
 }
@@ -9,9 +9,6 @@
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     margin: 10px 120px 20px 120px;
 }
 
@@ -21,12 +18,12 @@ header {
     cursor: pointer;
 }
 
-.menu-logo {
+.navbar-brand {
     display: flex;
     align-items: center;
 }
 
-.menu-logo h1 {
+.navbar-brand h1 {
     font-family: "Sugo Pro Display Bold";
     color: #E02112;
     font-size: 45px;
@@ -34,7 +31,11 @@ header {
     margin-top: 10px;
 }
 
-.menu-logo span {
+.nav-menu {
+    margin-left: 730px;
+}
+
+.navbar-brand span {
     color: black;
 }
 
@@ -46,6 +47,10 @@ li {
     font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+.nav-link {
+    color: black;
 }
 
 .chamada-header {
@@ -414,3 +419,5 @@ ul {
 .planos-card {
     margin-top: -5px;
 }
+
+
