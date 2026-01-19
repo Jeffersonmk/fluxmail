@@ -126,18 +126,17 @@ li {
     margin-bottom: 150px;
 }
 
+.funcoes {
+    margin-bottom: 300px;
+}
+
 .planos {
-    margin-top: -200px;
+    margin-bottom: 300px;
 }
 
 .card-img-top {
     width: 60px;
     height: 60px;
-}
-
-.row {
-    margin-top: 60px;
-    justify-content: center;
 }
 
 .card {
@@ -146,7 +145,6 @@ li {
     border-radius: 10px;
     border: solid black 1px;
     box-shadow: 0 2px 2px black;
-    margin-bottom: 300px;
 }
 
 .card img {
@@ -420,4 +418,46 @@ ul {
     margin-top: -5px;
 }
 
+@media (max-width: 992px) {
+    .menu span {
+        color: #FDFDFD;
+    }
 
+    .navbar {
+        width: 100vw;
+        background-color: #000000;
+    }
+
+    .nav-menu {
+        margin-left: 0;
+    }
+
+    .hamburguer-custom {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+
+    .nav-menu li a {
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .nav-menu li a:hover {
+        color: #ff1100;
+    }
+
+    .nav-menu li a:focus {
+        color: #DF2619;
+    }
+
+    .nav-menu li a:active {
+        color: #ffffff;
+    }
+
+    .bullet-img {
+        display: none;
+    }
+
+    .chamada-header img {
+        width: 80%;
+    }
+}
