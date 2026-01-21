@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Fluxmail</title>
 </head>
 <header>
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-dark bg-custom menu-custom">
         <div class="container-fluid">
-            <a class="navbar-brand fw-bold" href="#">FLUXMAIL</a>
+            <a class="navbar-brand fw-bold logo-custom" href="#">
+                <img id="icon-logo" src="./Images/logo/fluxmail.png">
+                FLUX<span>MAIL</span>
+            </a>
             <!-- Botão Hamburger -->
             <button
                 class="navbar-toggler ms-auto"
@@ -23,8 +29,8 @@
             <span class="navbar-toggler-icon"></span>
             </button>
             <!-- Itens do menu -->
-            <div class="collapse navbar-collapse active" id="menuNavbar">
-                <ul class="navbar-nav ms-auto gap-2">
+            <div class="collapse navbar-collapse" id="menuNavbar">
+                <ul class="navbar-nav ms-auto gap-2 text-center">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Início</a>
                     </li>
