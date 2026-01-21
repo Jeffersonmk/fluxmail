@@ -1,5 +1,5 @@
 #icon-logo {
-    width: 60px;
+    width: 80px;
     height: auto;
 }
 
@@ -12,9 +12,24 @@
     background-color: #000000;
 }
 
-.container-fluid a {
+.container-fluid h1 {
     font-family: "Sugo Pro Display Bold";
-    color: #E02112;
+    font-size: 35px;
+    color: #F93624;
+    cursor: pointer;
+}
+
+.nav-item a {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+
+.nav-item a:hover {
+    color: grey;
+}
+
+.nav-item a:focus {
+    color: #F93624;
 }
 
 .logo-custom span {
@@ -34,3 +49,68 @@
     border: solid 1px white;
 }
 
+.logo-custom {
+    display: flex;
+    align-items: center;   
+    margin: 0;             
+}
+
+.cta-header {
+    text-align: center;
+}
+
+.cta-header h1,
+h2 {
+    font-family: "Inter", sans-serif;
+}
+
+.cta-header h1 {
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.cta-header span {
+    font-size: 40px;
+    font-weight: 800;
+    color: #F93624;
+}
+
+.cta-header h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.button-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-custom {
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    border: none;
+    color: white;
+    background-color: #E62316;
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.button-cta p {
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+.cta-header img {
+    margin-top: 10px;
+    width: 80%;
+    border-radius: 10px;
+    border: solid #000000;
+}
