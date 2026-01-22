@@ -102,6 +102,18 @@ h2 {
     cursor: pointer;
 }
 
+.btn-custom:hover {
+    background-color: #D9D9D9;
+    border-color: #D9D9D9;
+    color: #ffffff;
+    border: solid #000000;
+}
+
+.btn-custom.active {
+    border: solid #000000;
+}
+
+
 .button-cta p {
     margin-top: 10px;
     font-family: "Inter", sans-serif;
@@ -215,5 +227,13 @@ ul {
     margin: 16px auto 0; /* top | horizontal | bottom */
 }
 
+.btn-group {
+    width: 460px;
+    height: 80px;
+}
 
-
+.planos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* centraliza horizontal */
+}
