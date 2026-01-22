@@ -154,5 +154,66 @@ h2 {
     margin-bottom: 60px;
 }
 
+.planos .card {
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    color: #000000;
+    height: 340px;
+}
+
+.planos .plano-titulo {
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.planos .plano-subtitulo {
+    margin-top: -10px;
+    font-size: 35px;
+    color: #E71E0E;
+    font-weight: bolder;
+}
+
+.planos .card  h4 {
+    margin-top: -10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.planos .card  li {
+    font-size: 16px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 1.0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.btn-planos {
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    background-color: #E71E0E;
+    border: none;
+    border-radius: 20px;
+    width: 210px;
+    height: 45px;
+    font-size: 22px;
+    box-shadow: 3px 3px 3px grey;
+}
+
+.btn-planos:hover {
+    background-color: #ff1100;
+}
+
+.planos .card .btn-planos {
+    display: block;
+    margin: 16px auto 0; /* top | horizontal | bottom */
+}
+
 
 
