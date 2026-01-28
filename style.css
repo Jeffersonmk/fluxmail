@@ -140,6 +140,11 @@ h2 {
     box-shadow: 0 2px 2px black;
 }
 
+.card-essencial {
+    width: 250px;
+    height: 250px;
+}
+
 .card img {
     margin: 30px 0 0 10px;
 }
@@ -154,6 +159,11 @@ h2 {
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font: 18px;
+}
+
+.planos {
+    margin-bottom: 180px;
+    margin-top: -30px;
 }
 
 .funcoes h1,
@@ -253,7 +263,8 @@ ul {
 .essencial h1 {
     font-family: "Inter", sans-serif;
     font-weight: bold;
-    margin: 10px 0 10px 10px;
+    margin-top: 40px;
+    margin-left: 14px;
 }
 
 .essencial h1 span {
@@ -262,15 +273,20 @@ ul {
     color: #E71E0E;
 }
 
-.essencial h1 {
-    margin-top: 40px;
-    margin-left: 50px;
+
+.essencial-titulo {
+    font-size: 18px;
 }
 
 .essencial-subtitulo {
     font-family: "Inter", sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 16px;
+}
+
+.essencial-body img {
+    width: 40px;
+    height: 40px;
 }
 
 .bullet-img img {
