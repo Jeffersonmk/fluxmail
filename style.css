@@ -409,3 +409,15 @@ ul {
 .planos-card {
     margin-top: -5px;
 }
+
+@media (max-width: 1199px) {
+    .essencial {
+        padding-bottom: 900px;
+    }
+}
+
+@media (max-width: 1880px) {
+    .bullet-img {
+        display: none;
+    }
+}
