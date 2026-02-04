@@ -421,3 +421,65 @@ ul {
         display: none;
     }
 }
+
+
+
+
+@media (min-width: 1200px) {
+    .menu-custom {
+        display: none;
+    }
+
+    .menu-desktop-logo img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .desktop-menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px 120px 20px 120px;
+    }
+
+    .menu-desktop ul {
+        display: flex;
+        gap: 30px;
+        cursor: pointer;
+    }
+
+    .menu-desktop-logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-desktop-logo h1 {
+        font-family: "Sugo Pro Display Bold";
+        color: #E02112;
+        font-size: 45px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    .menu-desktop-logo span {
+        color: black;
+    }
+
+    .menu-desktop ul {
+        list-style: none;
+    }
+
+    .menu-desktop li {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .desktop-menu {
+        display: none;
+    }
+}
+
+
