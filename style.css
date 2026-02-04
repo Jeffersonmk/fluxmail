@@ -483,7 +483,8 @@ ul {
     .cta-header h1,
     .cta-header span,
     .funcoes h1,
-    .planos h1 {
+    .planos h1,
+    .essencial h1 {
         font-size: 35px;
     }
 
@@ -491,16 +492,20 @@ ul {
         font-size: 15px;
     }
 
-    .card {
+    .card,
+    .card-essencial {
         width: 250px;
         height: 250px;
     }
 
-    .card-title {
+    .card-title,
+    .planos .plano-titulo
+    .essencial-titulo {
         font-size: 20px;
     }
 
-    .card-text {
+    .card-text,
+    .essencial-subtitulo  {
         font-size: 14px;
     }
 
@@ -513,6 +518,35 @@ ul {
         width: 360px;
         height: 80px;
     }
+
+    .planos .plano-subtitulo {
+        font-size: 30px;
+    }
+
+    .planos .card  h4 {
+        font-size: 16px;
+    }
+
+    .planos .card  li {
+        font-size: 15px;
+    }
+
+    .btn-planos {
+        width: 200px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .planos .card {
+        height: 300px;
+    }
+
+    .essencial {
+        padding-bottom: 1500px;
+    }
+
+    .card-group {
+        display: flex;
+        justify-content: center;
+    }
 }
-
-
