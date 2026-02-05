@@ -484,8 +484,17 @@ ul {
     .cta-header span,
     .funcoes h1,
     .planos h1,
-    .essencial h1 {
+    .essencial h1,
+    .duvidas h1 {
         font-size: 35px;
+    }
+
+    .cta-footer h1 {
+        font-size: 30px;
+    }
+
+    .cta-footer h2 {
+        font-size: 18px;
     }
 
     .cta-header h2 {
@@ -545,8 +554,20 @@ ul {
         padding-bottom: 1500px;
     }
 
-    .card-group {
+    .accordion-item {
+        width: 500px;
+    }
+
+    .accordion-header button {
+        font-size: 20px;
+    }
+
+    .section-footer {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+    }
+
+    .icon-footer {
+        display: flex;
     }
 }
