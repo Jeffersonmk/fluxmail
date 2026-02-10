@@ -55,17 +55,12 @@
     margin: 0;             
 }
 
-.cta-header {
-    text-align: center;
-}
-
 .cta-header h1,
 h2 {
     font-family: "Inter", sans-serif;
 }
 
 .cta-header h1 {
-    margin-top: 40px;
     font-size: 40px;
     font-weight: 800;
 }
@@ -77,15 +72,8 @@ h2 {
 }
 
 .cta-header h2 {
-    margin-top: 10px;
     font-size: 20px;
     font-weight: 600;
-}
-
-.button-cta {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .btn-custom {
@@ -95,10 +83,10 @@ h2 {
     border: none;
     color: white;
     background-color: #E62316;
+    max-width: 250px;
     width: 250px;
     height: 60px;
     border-radius: 20px;
-    margin-top: 10px;
     cursor: pointer;
 }
 
@@ -113,18 +101,14 @@ h2 {
     border: solid #000000;
 }
 
-
 .button-cta p {
-    margin-top: 10px;
     font-family: "Inter", sans-serif;
     font-weight: 600;
 }
 
 .cta-header img {
-    margin-top: 10px;
     border-radius: 10px;
     border: solid #000000;
-    width: 80%;
 }
 
 .card-img-top {
@@ -133,8 +117,7 @@ h2 {
 }
 
 .card {
-    width: 300px;
-    height: 300px;
+    max-width: 300px;
     border-radius: 10px;
     border: solid black 1px;
     box-shadow: 0 2px 2px black;
@@ -410,17 +393,6 @@ ul {
     margin-top: -5px;
 }
 
-@media (max-width: 1199px) {
-    .essencial {
-        padding-bottom: 900px;
-    }
-}
-
-@media (max-width: 1880px) {
-    .bullet-img {
-        display: none;
-    }
-}
 
 @media (min-width: 1200px) {
     .menu-custom {
@@ -470,5 +442,11 @@ ul {
         font-size: 20px;
         font-weight: bold;
         margin-top: 10px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .desktop-menu {
+        display: none;
     }
 }
