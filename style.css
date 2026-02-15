@@ -85,7 +85,7 @@ h2 {
     background-color: #E62316;
     max-width: 250px;
     width: 250px;
-    height: 60px;
+    min-height: 60px;
     border-radius: 20px;
     cursor: pointer;
 }
@@ -121,11 +121,6 @@ h2 {
     border-radius: 10px;
     border: solid black 1px;
     box-shadow: 0 2px 2px black;
-}
-
-.card-essencial {
-    width: 250px;
-    height: 250px;
 }
 
 .card img {
@@ -167,19 +162,20 @@ h2 {
 }
 
 .planos .plano-titulo {
-    margin-top: 15px;
     font-size: 25px;
 }
 
 .planos .plano-subtitulo {
-    margin-top: -10px;
     font-size: 35px;
     color: #E71E0E;
     font-weight: bolder;
 }
 
-.planos .card  h4 {
+.mt-n {
     margin-top: -10px;
+}
+
+.planos .card  h4 {
     font-size: 20px;
     font-weight: 500;
     color: #000000;
@@ -192,11 +188,6 @@ h2 {
     line-height: 1.0;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
 
 .btn-planos {
     margin-top: 20px;
@@ -205,8 +196,9 @@ ul {
     background-color: #E71E0E;
     border: none;
     border-radius: 20px;
+    max-width: 210px;
     width: 210px;
-    height: 45px;
+    min-height: 45px;
     font-size: 22px;
     box-shadow: 3px 3px 3px grey;
 }
@@ -215,39 +207,23 @@ ul {
     background-color: #ff1100;
 }
 
-.planos .card .btn-planos {
-    display: block;
-    margin: 16px auto 0; /* top | horizontal | bottom */
-}
-
 .btn-group {
-    width: 460px;
-    height: 80px;
+    max-width: 460px;
+    min-height: 80px;
 }
 
-.planos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;   /* centraliza horizontal */
-}
 
 .essencial {
-    display: flex;
-    width: 100%;
+    min-height: 572px;
     height: 572px;
     background-color: #F2F2F2;
     border: solid 1px #000000;
-    border-left: 0;
-    border-right: 0;
-    margin-top: -120px;
     outline: 4px solid black
 }
 
 .essencial h1 {
     font-family: "Inter", sans-serif;
     font-weight: bold;
-    margin-top: 40px;
-    margin-left: 14px;
 }
 
 .essencial h1 span {
@@ -272,21 +248,13 @@ ul {
 }
 
 .bullet-img img {
-    margin-left: 310px;
+    max-width: 572px;
     width: 572px;
     height: auto;
 }
 
-#lixeira-icon {
-    margin-left: -10px;
-}
-
-#email-icon {
-    margin-left: -2px;
-}
-
-#nota-icon {
-    margin-left: -10px;
+.ml-custom {
+    margin-left: 310px;
 }
 
 .duvidas {
