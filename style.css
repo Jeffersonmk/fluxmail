@@ -270,19 +270,10 @@ h2 {
 .duvidas h1 {
     font-family: "Inter", sans-serif;
     font-weight: bold;
-    text-align: center;
-    padding-top: 60px;
-    padding-bottom: 50px;
 }
 
-.accordion {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
 
 .accordion-item {
-    width: 1000px;
     border: 2px solid black;
 }
 
@@ -299,11 +290,6 @@ h2 {
 }
 
 .cta-footer {
-    padding-top: 40px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
     border-bottom: 4px solid black;
 }
 
@@ -317,17 +303,11 @@ h2 {
     font-weight: 400;
 }
 
-.cta-footer button {
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-
 .footer {
     background-color: #E9E9E9;
 }
 
 .section-footer {
-    margin-top: -5px;
     justify-content: space-between;
     margin-left: 120px;
     margin-right: 120px;
@@ -337,7 +317,6 @@ h2 {
     font-family: "Inter", sans-serif;
     font-weight: bold;
     font-size: 30px;
-    margin-bottom: 20px;
 }
 
 .footer-link {
