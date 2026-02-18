@@ -1,3 +1,11 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+}
+
 #icon-logo {
     width: 80px;
     height: auto;
@@ -20,7 +28,6 @@
 }
 
 .nav-item a {
-    font-family: "Inter", sans-serif;
     font-size: 20px;
 }
 
@@ -37,7 +44,6 @@
 }
 
 .nav-item a {
-    font-family: "Inter", sans-serif;
     color: white;
 }
 
@@ -53,11 +59,6 @@
     display: flex;
     align-items: center;   
     margin: 0;             
-}
-
-.cta-header h1,
-h2 {
-    font-family: "Inter", sans-serif;
 }
 
 .cta-header h1 {
@@ -77,7 +78,6 @@ h2 {
 }
 
 .btn-custom {
-    font-family: "Inter", sans-serif;
     font-weight: 800;
     font-size: 20px;
     border: none;
@@ -102,7 +102,6 @@ h2 {
 }
 
 .button-cta p {
-    font-family: "Inter", sans-serif;
     font-weight: 600;
 }
 
@@ -125,13 +124,11 @@ h2 {
 
 
 .card-title {
-    font-family: "Inter", sans-serif;
     font-weight: bolder;
     font-size: 25px;
 }
 
 .card-text {
-    font-family: "Inter", sans-serif;
     font-weight: 500;
     font: 18px;
 }
@@ -143,7 +140,6 @@ h2 {
 
 .funcoes h1,
 .planos h1 {
-    font-family: "Inter", sans-serif;
     font-weight: bolder;
     font-size: 40px;
     text-align: center;
@@ -188,7 +184,6 @@ h2 {
 
 .btn-planos {
     margin-top: 20px;
-    font-family: "Inter", sans-serif;
     font-weight: bold;
     background-color: #E71E0E;
     border: none;
@@ -218,13 +213,8 @@ h2 {
     outline: 4px solid black
 }
 
-.essencial h1 {
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-}
 
 .essencial h1 span {
-    font-family: "Inter", sans-serif;
     font-weight: bold;
     color: #E71E0E;
 }
@@ -234,7 +224,6 @@ h2 {
 }
 
 .essencial-subtitulo {
-    font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 16px;
 }
@@ -267,24 +256,16 @@ h2 {
     border-bottom: 4px solid black
 }
 
-.duvidas h1 {
-    font-family: "Inter", sans-serif;
-    font-weight: bold;
-}
-
-
 .accordion-item {
     border: 2px solid black;
 }
 
 .accordion-header button {
-    font-family: "Inter", sans-serif;
     font-weight: bold;
     font-size: 30px;
 }
 
 .accordion-body p {
-    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 20px;
 }
@@ -294,12 +275,10 @@ h2 {
 }
 
 .cta-footer h1 {
-    font-family: "Inter", sans-serif;
     font-weight: bolder;
 }
 
 .cta-footer h2 {
-    font-family: "Inter", sans-serif;
     font-weight: 400;
 }
 
@@ -314,13 +293,11 @@ h2 {
 }
 
 .section-tab h5 {
-    font-family: "Inter", sans-serif;
     font-weight: bold;
     font-size: 30px;
 }
 
 .footer-link {
-    font-family: "Inter", sans-serif;
     color: black;
     font-weight: 500;          
     font-size: 20px;
@@ -328,7 +305,6 @@ h2 {
 }
 
 #footer-text {
-    font-family: "Inter", sans-serif;
     color: black;
     font-size: 15px;
     font-weight: 400;
