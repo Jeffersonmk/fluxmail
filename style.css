@@ -295,6 +295,10 @@ h1 {
     margin-top: -5px;
 }
 
+    .custom-padding {
+        padding-bottom: 3rem; /* equivalente ao pb-5 */
+    }
+
 @media (min-width: 1200px) {
     .menu-custom {
         display: none;
@@ -412,5 +416,11 @@ h1 {
     .cta-footer h1,
     .section-tab h5 {
         font-size: 30px;
+    }
+}
+
+@media (min-width: 1701px) {
+    .custom-padding {
+        padding-bottom: 0; /* equivalente ao pb-0 */
     }
 }
